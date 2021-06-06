@@ -5,12 +5,12 @@
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("What is the quote?");
+        System.out.print("What is the quote? ");
         Scanner input = new Scanner(System.in);
         String quote = input.next();
-        System.out.println("Who said it?");
+        System.out.print("Who said it? ");
         String author = input.next();
         System.out.println(author + " says, \"" +  quote + "\"");
     }
